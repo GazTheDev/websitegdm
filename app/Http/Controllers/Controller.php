@@ -12,5 +12,3 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
 }
-$exitCode = Artisan::call('storage:link', [] );
-echo $exitCode; // 0 exit code for no errors.
