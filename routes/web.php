@@ -47,3 +47,5 @@ Route::post('user/update', 'UserController@update')->name('user.update');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('contact', 'ContactController@contact');
+Route::post('contact', ['as'=>'contact.store','uses'=>'ContactController@contactPost']);

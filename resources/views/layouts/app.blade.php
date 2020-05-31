@@ -36,8 +36,9 @@
     <div  id="app">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                     <div data-aos="flip-right" class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-GarethDaviesMedia                </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="https://res.cloudinary.com/b2b-webmasters/image/upload/v1590966138/PNG_Gareth_Davies_Media_Logo_75.png" alt="">
+                          </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
