@@ -31,7 +31,7 @@
 </div>
 
 <div class="form-group">
-<button class="btn btn-success">Send mail</button>
+<button onclick="window.location.href = 'https://garethdaviesmedia.tech';"  class="btn btn-success">Send mail</button>
 </div>
 
 {!! Form::close() !!}
