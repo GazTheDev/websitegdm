@@ -1,6 +1,4 @@
-
-@extends('layouts.app')
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Sidebar Widgets Column -->
 <br />
  <div class="container">
@@ -51,5 +49,7 @@
 
 
 
-    @endsection
+    <?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\voyager\new\resources\views/page/homepage.blade.php ENDPATH**/ ?>
