@@ -14472,3 +14472,4 @@ ew\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #65 {main}
 "} 
 [2020-06-01 13:19:28] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2020-06-03 20:24:49] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
